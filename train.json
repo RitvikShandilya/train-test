@@ -1,0 +1,12 @@
+[
+    {
+        "instruction": "take the following text: I want to book a train to munich In the given sentence, identify the from station, to station, date of travel in dd/mm/yyyy example 05/01/2022 or 12/12/2022 and time of travel in 24h format inside one json object, only give the json object in response without any other text with the fields from_station to_station travel_date and travel_time, assign null to the field if its not given by the sentence. Create an empty json object if all fields are not present",
+        "input": "",
+        "output": "{'from_station': null,'to_station': Munich,'travel_date': null,'travel_time': null}"
+    },
+    {
+        "instruction": "take the following text: I want to book a train to munich from berlin In the given sentence, identify the from station, to station, date of travel in dd/mm/yyyy example 05/01/2022 or 12/12/2022 and time of travel in 24h format inside one json object, only give the json object in response without any other text with the fields from_station to_station travel_date and travel_time, assign null to the field if its not given by the sentence. Create an empty json object if all fields are not present",
+        "input": "",
+        "output": "{'from_station': Berlin,'to_station': Munich,'travel_date': null,'travel_time': null}"
+    }
+]
